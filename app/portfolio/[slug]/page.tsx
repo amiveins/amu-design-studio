@@ -2,6 +2,14 @@ import { BeforeAfterSlider } from "@/components/ui/BeforeAfterSlider";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
+export function generateStaticParams() {
+  return [
+    { slug: 'pastel-dew' },
+    { slug: 'heritage-hue' },
+    { slug: 'minimalist-haven' }
+  ];
+}
+
 export default function ProjectPage({ params }: { params: { slug: string } }) {
   return (
     <div className="bg-[var(--color-ivory)] pt-32 pb-24 px-4 sm:px-6 lg:px-8 min-h-screen">
