@@ -10,7 +10,8 @@ export function generateStaticParams() {
   ];
 }
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
+export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params;
   return (
     <div className="bg-[var(--color-ivory)] pt-32 pb-24 px-4 sm:px-6 lg:px-8 min-h-screen">
       <div className="max-w-5xl mx-auto">
@@ -19,7 +20,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         </Link>
         
         <h1 className="font-display text-4xl md:text-6xl text-[var(--color-carbon)] mb-6 capitalize">
-          {params.slug.replace(/-/g, ' ')}
+          {resolvedParams.slug.replace(/-/g, ' ')}
         </h1>
         
         <div className="flex flex-wrap gap-8 mb-16 border-y border-[var(--color-crystal)] py-6">
