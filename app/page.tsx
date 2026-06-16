@@ -181,7 +181,6 @@ export default function Home() {
         </div>
       </section>
       
-
       {/* 9. Contact CTA Banner */}
       <section className="py-24 bg-[var(--color-stone)] px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-carbon)] to-transparent opacity-50" />
