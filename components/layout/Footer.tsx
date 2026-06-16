@@ -9,7 +9,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-6 group">
               <div className="relative w-10 h-10 md:w-12 md:h-12 bg-white/5 rounded p-1">
-                <Image src="/logo.png" alt="AMU Design Studio Logo" fill className="object-contain" />
+                <Image src="/amu-design-studio/logo.png" alt="AMU Design Studio Logo" fill className="object-contain" />
               </div>
               <span className="font-display font-semibold text-2xl md:text-3xl tracking-wide uppercase text-white group-hover:text-[var(--color-terracotta)] transition-colors">
                 AMU Design Studio
