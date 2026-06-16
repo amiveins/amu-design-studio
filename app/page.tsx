@@ -1,6 +1,5 @@
 import { HeroCarousel } from "@/components/features/HeroCarousel";
 import { TestimonialCarousel } from "@/components/features/TestimonialCarousel";
-import { CitiesMap } from "@/components/features/CitiesMap";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { Button } from "@/components/ui/Button";
 import { MagneticWrapper } from "@/components/ui/MagneticWrapper";
