@@ -180,16 +180,7 @@ export default function Home() {
           <h3 className="font-display text-2xl md:text-3xl text-[var(--color-slate)] whitespace-nowrap">10+ Industry Awards</h3>
         </div>
       </section>
-
-      {/* 8. Cities We Serve */}
-      <section className="py-24 md:py-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <span className="text-xs font-bold uppercase tracking-widest text-[var(--color-terracotta)] block mb-4">Our Reach</span>
-          <h2 className="font-display text-4xl md:text-5xl text-[var(--color-carbon)] mb-4">Across India</h2>
-          <p className="text-[var(--color-slate)] max-w-2xl mx-auto">From Delhi NCR to Goa, our teams are delivering exceptional interiors in over 20 cities.</p>
-        </div>
-        <CitiesMap />
-      </section>
+      
 
       {/* 9. Contact CTA Banner */}
       <section className="py-24 bg-[var(--color-stone)] px-4 sm:px-6 lg:px-8 relative overflow-hidden">
