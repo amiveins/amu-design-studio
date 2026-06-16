@@ -1,7 +1,7 @@
 "use client";
-
-import React, { useState } from "react";
+// @ts-ignore
 import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
+import React, { useState } from "react";
 
 const INDIA_TOPO_JSON = "https://raw.githubusercontent.com/deldersveld/topojson/master/countries/india/india-states.json";
 
