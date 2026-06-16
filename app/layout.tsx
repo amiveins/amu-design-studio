@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: 'AMU Design Studio',
   description: 'We design an artful life. Premium, personalized interior design across India.',
   icons: {
-    icon: '/logo.png',
+    icon: '/amu-design-studio/logo.png'
   },
 };
 
