@@ -42,7 +42,7 @@ export function Navigation() {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center gap-3 group">
               <div className="relative w-8 h-8 md:w-10 md:h-10">
-                <Image src="/logo.png" alt="AMU Design Studio Logo" fill className="object-contain" priority />
+                <Image src="/amu-design-studio/logo.png" alt="AMU Design Studio Logo" fill className="object-contain" priority />
               </div>
               <span className="font-display font-semibold text-xl md:text-2xl tracking-wide uppercase text-[var(--color-carbon)] group-hover:text-[var(--color-terracotta)] transition-colors">
                 AMU Design Studio
